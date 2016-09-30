@@ -1,0 +1,59 @@
+@font-face
+{
+	font-family: CutiveMono;
+	src: url(../fonts/CutiveMono-Regular.ttf);
+}
+*
+{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body
+{
+	position: relative;
+	min-height: 100vh;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #555;
+	background-color: white;
+}
+a
+{
+	text-decoration: none;
+	transition: color .2s;
+	color: #337AB7;
+}
+a:hover
+{
+	color: #23527C;
+}
+.container
+{
+	max-width: 1425px;
+	margin: 0 auto;
+	padding: 0 90px;
+}
+@media (max-width: 1000px)
+{
+	.container
+	{
+		max-width: 600px;
+		padding: 0;
+	}
+}
+@media (max-width: 690px)
+{
+	.container
+	{
+		max-width: 420px;
+	}
+}
+@media (max-width: 480px)
+{
+	.container
+	{
+		max-width: 300px;
+	}
+}

@@ -1,0 +1,8 @@
+# Failsafe
+# Options +Indexes
+# end
+RewriteEngine On
+
+RewriteRule ^(s\/)?(.*\/)?$ /.index.php?dir=$2&showcase=$1 [L]
+RewriteRule ^s\/(.*\..*)$ /.code.php?dir=$1 [L]
+DirectoryIndex index.php index.html .index.php

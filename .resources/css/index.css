@@ -1,0 +1,104 @@
+body
+{
+	font-family: CutiveMono, Helvetica, Arial, sans-serif;
+}
+header
+{
+	background-color: #F8F8F8;
+	line-height: 20px;
+	overflow: auto;
+	border-bottom: 1px solid #E7E7E7;
+	margin-bottom: 1.5rem;
+}
+header a, header span
+{
+	padding: 15px;
+	float: left;
+}
+header .showcase
+{
+	margin: 5px;
+	padding: 10px;
+	background-color: #BCBCBC;
+	border-radius: 4px;
+	color: white;
+	float: right;
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	text-align: center;
+	width: 100px;
+	transition: background-color .2s;
+	line-height: inherit;
+	display: block;
+}
+header .showcase.toggle
+{
+	background-color: #7BD128;
+}
+.item
+{
+	display: table;
+	width: 100%;
+	line-height: 20px;
+	padding: 10px;
+	margin: 5px 0;
+	border-radius: 4px;
+	transition: background-color .2s, color .2s;
+}
+a.item:hover
+{
+	background-color: #EEE;
+}
+.item div
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+.item.header div
+{
+	font-weight: bold;
+	color: black;
+}
+.item .icon
+{
+	width: 40px;
+	color: #555;
+}
+.item .icon svg
+{
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+	display: block;
+	fill: currentColor;
+}
+.item .size
+{
+	width: 150px;
+	text-align: right;
+}
+.item .last
+{
+	width: 230px;
+	text-align: right;
+}
+@media (max-width: 690px)
+{
+	.item .last
+	{
+		display: none;
+	}
+}
+footer
+{
+	margin-top: 1.5rem;
+	border-top: 1px solid #EEE;
+	line-height: 20px;
+	padding: 15px;
+	text-align: center;
+}
+footer .love
+{
+	color: #FF4559;
+}
