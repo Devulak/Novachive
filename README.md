@@ -1,5 +1,5 @@
-# Novachive
-Novachive is an indexing for webservers who uses folder structures a lot, this provides a clean and effecient look to it
+# Novarchive
+Novarchive is an indexing for webservers who uses folder structures a lot, this provides a clean and effecient look to it
 
 ## Installation guide
 (This is only tested and works on a LAMP server setup)
