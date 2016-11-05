@@ -116,9 +116,9 @@
 			<div class="container">
 				<?
 					$version = file_get_contents('.index.txt');
-					$update = file_get_contents('https://raw.githubusercontent.com/Devulak/Novachive/master/.index.txt');
+					$update = file_get_contents('https://raw.githubusercontent.com/Devulak/Novarchive/master/.index.txt');
 				?>
-				Everything is designed and programmed with <span class="love">&lt;3</span> by ZeroXitreo - <a href="https://www.catbug.com/">TO THE WEBSITE!</a> - <? echo $version ?>
+				Everything is designed and programmed with <span class="love">&lt;3</span> by ZeroXitreo - <a href="https://www.noctro.com/">noctro.com</a> - <? echo $version ?>
 				<?
 					if($version != $update)
 						echo '<div id="update"><a href="http://kevm06.wi4.sde.dk/.index.rar">A NEW VERSION AVAILABLE!</a></div>';
