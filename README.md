@@ -7,3 +7,4 @@ Novarchive is an indexing for webservers who uses folder structures a lot, this 
 1. Put the files in the folder you want to look sleek
 2. ???
 3. Profit!
+
